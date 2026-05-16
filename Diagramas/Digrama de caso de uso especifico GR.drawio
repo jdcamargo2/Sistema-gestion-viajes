@@ -1,9 +1,79 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="bewpr8zN37jzOAk-jL6v">
-    <mxGraphModel>
+    <mxGraphModel dx="1245" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JCBA2Cw_qtJ07H5KPRJ3-8" edge="1" parent="1" source="JCBA2Cw_qtJ07H5KPRJ3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="JCBA2Cw_qtJ07H5KPRJ3-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JCBA2Cw_qtJ07H5KPRJ3-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;div&gt;Viajero&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="150" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="JCBA2Cw_qtJ07H5KPRJ3-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Gestión de recomendaciones" vertex="1">
+          <mxGeometry height="570" width="370" x="250" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="JCBA2Cw_qtJ07H5KPRJ3-3" parent="JCBA2Cw_qtJ07H5KPRJ3-2" style="ellipse;whiteSpace=wrap;html=1;" value="Consultar recomendaciones" vertex="1">
+          <mxGeometry height="80" width="120" x="20" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="JCBA2Cw_qtJ07H5KPRJ3-4" parent="JCBA2Cw_qtJ07H5KPRJ3-2" style="ellipse;whiteSpace=wrap;html=1;" value="Generar estimaciones" vertex="1">
+          <mxGeometry height="80" width="120" x="210" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="JCBA2Cw_qtJ07H5KPRJ3-5" parent="JCBA2Cw_qtJ07H5KPRJ3-2" style="ellipse;whiteSpace=wrap;html=1;" value="Mostrar recomendaciones" vertex="1">
+          <mxGeometry height="80" width="120" x="210" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JCBA2Cw_qtJ07H5KPRJ3-10" edge="1" parent="JCBA2Cw_qtJ07H5KPRJ3-2" source="JCBA2Cw_qtJ07H5KPRJ3-3" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="JCBA2Cw_qtJ07H5KPRJ3-5" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="0.4286" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="80" y="90" />
+            </Array>
+            <mxPoint x="-40" y="200" as="sourcePoint" />
+            <mxPoint x="110" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JCBA2Cw_qtJ07H5KPRJ3-11" edge="1" parent="JCBA2Cw_qtJ07H5KPRJ3-2" source="JCBA2Cw_qtJ07H5KPRJ3-3" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="JCBA2Cw_qtJ07H5KPRJ3-4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="0.4545" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="80" y="500" />
+            </Array>
+            <mxPoint x="-20" y="210" as="sourcePoint" />
+            <mxPoint x="140" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JCBA2Cw_qtJ07H5KPRJ3-14" parent="JCBA2Cw_qtJ07H5KPRJ3-2" style="ellipse;whiteSpace=wrap;html=1;" value="Ingresar información adicional" vertex="1">
+          <mxGeometry height="80" width="120" x="210" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="JCBA2Cw_qtJ07H5KPRJ3-13" parent="JCBA2Cw_qtJ07H5KPRJ3-2" style="ellipse;whiteSpace=wrap;html=1;" value="Actualizar recomendaciones" vertex="1">
+          <mxGeometry height="80" width="120" x="210" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="JCBA2Cw_qtJ07H5KPRJ3-15" edge="1" parent="JCBA2Cw_qtJ07H5KPRJ3-2" source="JCBA2Cw_qtJ07H5KPRJ3-13" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="JCBA2Cw_qtJ07H5KPRJ3-3" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.3321" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="122" y="380" />
+            </Array>
+            <mxPoint x="150" y="370" as="sourcePoint" />
+            <mxPoint x="310" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JCBA2Cw_qtJ07H5KPRJ3-16" edge="1" parent="JCBA2Cw_qtJ07H5KPRJ3-2" source="JCBA2Cw_qtJ07H5KPRJ3-14" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="JCBA2Cw_qtJ07H5KPRJ3-3" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.3321" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="122" y="200" />
+            </Array>
+            <mxPoint x="150" y="320" as="sourcePoint" />
+            <mxPoint x="310" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JCBA2Cw_qtJ07H5KPRJ3-12" edge="1" parent="1" source="JCBA2Cw_qtJ07H5KPRJ3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="JCBA2Cw_qtJ07H5KPRJ3-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JCBA2Cw_qtJ07H5KPRJ3-7" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;div&gt;API de&amp;nbsp;&lt;/div&gt;&lt;div&gt;recomendaciones&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="670" y="620" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
