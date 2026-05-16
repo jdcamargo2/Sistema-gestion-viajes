@@ -1,9 +1,66 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="NQCY4xwhyc-jW6gcMsVc">
-    <mxGraphModel>
+    <mxGraphModel dx="1099" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JTylAPPPokk6jc8WhRMl-10" edge="1" parent="1" source="JTylAPPPokk6jc8WhRMl-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="JTylAPPPokk6jc8WhRMl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JTylAPPPokk6jc8WhRMl-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Viajero" vertex="1">
+          <mxGeometry height="60" width="30" x="200" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="JTylAPPPokk6jc8WhRMl-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Gestión de vuelos" vertex="1">
+          <mxGeometry height="510" width="360" x="310" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JTylAPPPokk6jc8WhRMl-3" parent="JTylAPPPokk6jc8WhRMl-2" style="ellipse;whiteSpace=wrap;html=1;" value="Buscar vuelo" vertex="1">
+          <mxGeometry height="80" width="120" x="20" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="JTylAPPPokk6jc8WhRMl-4" parent="JTylAPPPokk6jc8WhRMl-2" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div&gt;Verificar disponibilidad y&lt;/div&gt;&lt;div&gt;precio&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="200" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JTylAPPPokk6jc8WhRMl-5" parent="JTylAPPPokk6jc8WhRMl-2" style="ellipse;whiteSpace=wrap;html=1;" value="Ver detalles del vuelo" vertex="1">
+          <mxGeometry height="80" width="120" x="200" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="JTylAPPPokk6jc8WhRMl-6" parent="JTylAPPPokk6jc8WhRMl-2" style="ellipse;whiteSpace=wrap;html=1;" value="Ordenar vuelos" vertex="1">
+          <mxGeometry height="80" width="120" x="200" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="JTylAPPPokk6jc8WhRMl-7" edge="1" parent="JTylAPPPokk6jc8WhRMl-2" source="JTylAPPPokk6jc8WhRMl-3" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="JTylAPPPokk6jc8WhRMl-4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="0.4545" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="80" y="100" />
+            </Array>
+            <mxPoint x="40" y="250" as="sourcePoint" />
+            <mxPoint x="200" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JTylAPPPokk6jc8WhRMl-12" edge="1" parent="JTylAPPPokk6jc8WhRMl-2" source="JTylAPPPokk6jc8WhRMl-3" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="JTylAPPPokk6jc8WhRMl-5" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="0.2941" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="80" y="330" />
+            </Array>
+            <mxPoint x="40" y="250" as="sourcePoint" />
+            <mxPoint x="200" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JTylAPPPokk6jc8WhRMl-13" edge="1" parent="JTylAPPPokk6jc8WhRMl-2" source="JTylAPPPokk6jc8WhRMl-6" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.167;entryY=0.854;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" target="JTylAPPPokk6jc8WhRMl-3" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.5139" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="40" y="440" />
+            </Array>
+            <mxPoint x="80" y="340" as="sourcePoint" />
+            <mxPoint x="240" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JTylAPPPokk6jc8WhRMl-14" edge="1" parent="1" source="JTylAPPPokk6jc8WhRMl-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="JTylAPPPokk6jc8WhRMl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JTylAPPPokk6jc8WhRMl-9" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="API de vuelos" vertex="1">
+          <mxGeometry height="60" width="30" x="720" y="330" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
