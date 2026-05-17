@@ -1,9 +1,80 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="9H5X7An-FEzXkqD8vu7O">
-    <mxGraphModel>
+    <mxGraphModel dx="816" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RT6m2fjy07hh9fLqThxZ-7" edge="1" parent="1" source="RT6m2fjy07hh9fLqThxZ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="RT6m2fjy07hh9fLqThxZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RT6m2fjy07hh9fLqThxZ-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Viajero" vertex="1">
+          <mxGeometry height="60" width="30" x="130" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="RT6m2fjy07hh9fLqThxZ-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Notificaciones" vertex="1">
+          <mxGeometry height="530" width="400" x="260" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="RT6m2fjy07hh9fLqThxZ-3" parent="RT6m2fjy07hh9fLqThxZ-2" style="ellipse;whiteSpace=wrap;html=1;" value="Recibir notificación" vertex="1">
+          <mxGeometry height="80" width="120" x="30" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RT6m2fjy07hh9fLqThxZ-4" parent="RT6m2fjy07hh9fLqThxZ-2" style="ellipse;whiteSpace=wrap;html=1;" value="Enviar notificacion" vertex="1">
+          <mxGeometry height="80" width="120" x="30" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="RT6m2fjy07hh9fLqThxZ-8" parent="RT6m2fjy07hh9fLqThxZ-2" style="ellipse;whiteSpace=wrap;html=1;" value="Seleccionar método de notificación" vertex="1">
+          <mxGeometry height="80" width="120" x="260" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RT6m2fjy07hh9fLqThxZ-9" edge="1" parent="RT6m2fjy07hh9fLqThxZ-2" source="RT6m2fjy07hh9fLqThxZ-8" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="RT6m2fjy07hh9fLqThxZ-3" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="70" y="180" as="sourcePoint" />
+            <mxPoint x="230" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RT6m2fjy07hh9fLqThxZ-10" parent="RT6m2fjy07hh9fLqThxZ-2" style="ellipse;whiteSpace=wrap;html=1;" value="Notificar confirmación de reserva" vertex="1">
+          <mxGeometry height="80" width="120" x="260" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="RT6m2fjy07hh9fLqThxZ-12" parent="RT6m2fjy07hh9fLqThxZ-2" style="ellipse;whiteSpace=wrap;html=1;" value="Notificar cambios de vuelo" vertex="1">
+          <mxGeometry height="80" width="120" x="260" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="RT6m2fjy07hh9fLqThxZ-13" parent="RT6m2fjy07hh9fLqThxZ-2" style="ellipse;whiteSpace=wrap;html=1;" value="Notificar cambios de itinerario" vertex="1">
+          <mxGeometry height="80" width="120" x="260" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="RT6m2fjy07hh9fLqThxZ-14" edge="1" parent="RT6m2fjy07hh9fLqThxZ-2" source="RT6m2fjy07hh9fLqThxZ-10" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="RT6m2fjy07hh9fLqThxZ-4" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.3043" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="90" y="240" />
+            </Array>
+            <mxPoint x="70" y="370" as="sourcePoint" />
+            <mxPoint x="230" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RT6m2fjy07hh9fLqThxZ-15" edge="1" parent="RT6m2fjy07hh9fLqThxZ-2" source="RT6m2fjy07hh9fLqThxZ-12" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="RT6m2fjy07hh9fLqThxZ-4" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="70" y="370" as="sourcePoint" />
+            <mxPoint x="230" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RT6m2fjy07hh9fLqThxZ-16" edge="1" parent="RT6m2fjy07hh9fLqThxZ-2" source="RT6m2fjy07hh9fLqThxZ-13" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="RT6m2fjy07hh9fLqThxZ-4" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.25" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="90" y="450" />
+            </Array>
+            <mxPoint x="70" y="370" as="sourcePoint" />
+            <mxPoint x="230" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RT6m2fjy07hh9fLqThxZ-6" edge="1" parent="1" source="RT6m2fjy07hh9fLqThxZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="RT6m2fjy07hh9fLqThxZ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RT6m2fjy07hh9fLqThxZ-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="API de notificaciones" vertex="1">
+          <mxGeometry height="60" width="30" x="130" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="RT6m2fjy07hh9fLqThxZ-18" edge="1" parent="1" source="RT6m2fjy07hh9fLqThxZ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="RT6m2fjy07hh9fLqThxZ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RT6m2fjy07hh9fLqThxZ-17" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="API de vuelos" vertex="1">
+          <mxGeometry height="60" width="30" x="750" y="470" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
