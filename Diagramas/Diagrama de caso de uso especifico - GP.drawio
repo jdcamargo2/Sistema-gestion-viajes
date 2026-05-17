@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="mkqWgUlGliyPtY1f7ZGr">
-    <mxGraphModel dx="694" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1544" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,12 +15,6 @@
         </mxCell>
         <mxCell id="oq_OCJEDApQ9kqL2OErt-7" parent="oq_OCJEDApQ9kqL2OErt-2" style="ellipse;whiteSpace=wrap;html=1;" value="Rechazar transacción" vertex="1">
           <mxGeometry height="80" width="120" x="245" y="350" as="geometry" />
-        </mxCell>
-        <mxCell id="oq_OCJEDApQ9kqL2OErt-4" edge="1" parent="oq_OCJEDApQ9kqL2OErt-2" source="oq_OCJEDApQ9kqL2OErt-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="oq_OCJEDApQ9kqL2OErt-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oq_OCJEDApQ9kqL2OErt-1" parent="oq_OCJEDApQ9kqL2OErt-2" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Viajero" vertex="1">
-          <mxGeometry height="60" width="30" x="-90" y="165" as="geometry" />
         </mxCell>
         <mxCell id="oq_OCJEDApQ9kqL2OErt-3" parent="oq_OCJEDApQ9kqL2OErt-2" style="ellipse;whiteSpace=wrap;html=1;" value="Procesar pago" vertex="1">
           <mxGeometry height="80" width="120" x="20" y="155" as="geometry" />
@@ -59,6 +53,12 @@
         </mxCell>
         <mxCell id="oq_OCJEDApQ9kqL2OErt-11" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="API de pagos" vertex="1">
           <mxGeometry height="60" width="30" x="590" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="oq_OCJEDApQ9kqL2OErt-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Viajero" vertex="1">
+          <mxGeometry height="60" width="30" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="oq_OCJEDApQ9kqL2OErt-4" edge="1" parent="1" source="oq_OCJEDApQ9kqL2OErt-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="oq_OCJEDApQ9kqL2OErt-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
