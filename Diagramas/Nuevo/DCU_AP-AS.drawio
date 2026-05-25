@@ -1,9 +1,56 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="2MCPbYyZW21d3IY1IVWa">
-    <mxGraphModel>
+    <mxGraphModel dx="758" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-VraebvEArIR_a6ECkNw-6" edge="1" parent="1" source="-VraebvEArIR_a6ECkNw-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="-VraebvEArIR_a6ECkNw-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-VraebvEArIR_a6ECkNw-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Viajero" vertex="1">
+          <mxGeometry height="60" width="30" x="190" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="-VraebvEArIR_a6ECkNw-3" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Acceder al sistema" vertex="1">
+          <mxGeometry height="350" width="430" x="290" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="-VraebvEArIR_a6ECkNw-4" parent="-VraebvEArIR_a6ECkNw-3" style="ellipse;whiteSpace=wrap;html=1;" value="Acceder al sistema" vertex="1">
+          <mxGeometry height="80" width="120" x="40" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="-VraebvEArIR_a6ECkNw-5" parent="-VraebvEArIR_a6ECkNw-3" style="ellipse;whiteSpace=wrap;html=1;" value="Iniciar sesión" vertex="1">
+          <mxGeometry height="80" width="120" x="240" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-VraebvEArIR_a6ECkNw-7" edge="1" parent="-VraebvEArIR_a6ECkNw-3" source="-VraebvEArIR_a6ECkNw-4" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-VraebvEArIR_a6ECkNw-5" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="0.2821" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="100" y="80" />
+            </Array>
+            <mxPoint x="20" y="100" as="sourcePoint" />
+            <mxPoint x="180" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VraebvEArIR_a6ECkNw-8" parent="-VraebvEArIR_a6ECkNw-3" style="ellipse;whiteSpace=wrap;html=1;" value="Registrar usuario" vertex="1">
+          <mxGeometry height="80" width="120" x="240" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="-VraebvEArIR_a6ECkNw-9" parent="-VraebvEArIR_a6ECkNw-3" style="ellipse;whiteSpace=wrap;html=1;" value="Recuperar contraseña" vertex="1">
+          <mxGeometry height="80" width="120" x="240" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="-VraebvEArIR_a6ECkNw-10" edge="1" parent="-VraebvEArIR_a6ECkNw-3" source="-VraebvEArIR_a6ECkNw-8" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="-VraebvEArIR_a6ECkNw-4" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="90" y="130" as="sourcePoint" />
+            <mxPoint x="250" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-VraebvEArIR_a6ECkNw-11" edge="1" parent="-VraebvEArIR_a6ECkNw-3" source="-VraebvEArIR_a6ECkNw-9" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="-VraebvEArIR_a6ECkNw-4" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" x="-0.3171" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="100" y="280" />
+            </Array>
+            <mxPoint x="90" y="130" as="sourcePoint" />
+            <mxPoint x="250" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
