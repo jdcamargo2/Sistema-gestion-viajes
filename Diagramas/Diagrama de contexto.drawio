@@ -19,7 +19,7 @@
         <mxCell id="Qg0UZIg7ceVPUyK0LYbh-6" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=19.5;spacing=9;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=1.5;lucidId=A0IQgHFGUjRa;" value="API de pagos" vertex="1">
           <mxGeometry height="90" width="120" x="95" y="440" as="geometry" />
         </mxCell>
-        <mxCell id="Qg0UZIg7ceVPUyK0LYbh-7" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=19.5;spacing=9;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=1.5;lucidId=L0IQBWIHV2ov;" value="API de recomendaciones basado en IA" vertex="1">
+        <mxCell id="Qg0UZIg7ceVPUyK0LYbh-7" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=19.5;spacing=9;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=1.5;lucidId=L0IQBWIHV2ov;" value="API de recomendaciones basada en IA" vertex="1">
           <mxGeometry height="90" width="194" x="683" y="440" as="geometry" />
         </mxCell>
         <mxCell id="Qg0UZIg7ceVPUyK0LYbh-8" parent="1" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=19.5;spacing=9;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#ffffff;strokeWidth=1.5;lucidId=U0IQVbOXQFOp;" value="API de notificaciones" vertex="1">
