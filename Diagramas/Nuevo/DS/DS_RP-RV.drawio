@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="RD72t6LjuU9YdljJS5gK">
-    <mxGraphModel dx="1340" dy="1893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1559" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,7 +58,7 @@
             <mxPoint x="540" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uqaw665QEyW273f3UXCv-14" edge="1" parent="uqaw665QEyW273f3UXCv-1" source="uqaw665QEyW273f3UXCv-11" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" target="uqaw665QEyW273f3UXCv-9" value="&lt;span&gt;datosVueloSeleccionado&lt;/span&gt;">
+        <mxCell id="uqaw665QEyW273f3UXCv-14" edge="1" parent="uqaw665QEyW273f3UXCv-1" source="uqaw665QEyW273f3UXCv-11" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" target="uqaw665QEyW273f3UXCv-9" value="&lt;span&gt;datosVueloSeleccionado(datosReserva)&lt;/span&gt;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="550" y="220" as="sourcePoint" />
             <mxPoint x="470" y="220" as="targetPoint" />
