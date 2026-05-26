@@ -122,9 +122,6 @@
             <mxPoint x="270" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uqaw665QEyW273f3UXCv-26" parent="uqaw665QEyW273f3UXCv-32" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" value="&lt;div&gt;[vuelo no disponible o&lt;/div&gt;&lt;div&gt;precio cambiado]&lt;/div&gt;" vertex="1">
-          <mxGeometry height="10" width="1250" x="-180" y="260" as="geometry" />
-        </mxCell>
         <mxCell id="uqaw665QEyW273f3UXCv-45" edge="1" parent="uqaw665QEyW273f3UXCv-32" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="mostrarMensajePagoRechazado()">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="202.93" y="230" as="sourcePoint" />
@@ -142,6 +139,9 @@
             <mxPoint x="680" y="340" as="sourcePoint" />
             <mxPoint x="395" y="340" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="uqaw665QEyW273f3UXCv-26" parent="uqaw665QEyW273f3UXCv-24" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" value="&lt;div&gt;[vuelo no disponible o&lt;/div&gt;&lt;div&gt;precio cambiado]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="10" width="1250" y="310" as="geometry" />
         </mxCell>
         <mxCell id="uqaw665QEyW273f3UXCv-27" edge="1" parent="uqaw665QEyW273f3UXCv-1" source="uqaw665QEyW273f3UXCv-18" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" target="uqaw665QEyW273f3UXCv-28" value="&lt;span&gt;procesarPago(datosPago, monto)&lt;/span&gt;">
           <mxGeometry relative="1" width="80" as="geometry">
