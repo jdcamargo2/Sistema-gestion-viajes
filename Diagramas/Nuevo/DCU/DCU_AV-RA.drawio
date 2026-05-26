@@ -19,13 +19,13 @@
         <mxCell id="fss9sYI7YIhvXHXK7b7x-6" parent="fss9sYI7YIhvXHXK7b7x-3" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div&gt;Configurar método&lt;/div&gt;&lt;div&gt;de alerta&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="120" x="290" y="425" as="geometry" />
         </mxCell>
-        <mxCell id="fss9sYI7YIhvXHXK7b7x-7" parent="fss9sYI7YIhvXHXK7b7x-3" style="ellipse;whiteSpace=wrap;html=1;" value="Alertar cambios de vuelos" vertex="1">
+        <mxCell id="fss9sYI7YIhvXHXK7b7x-7" parent="fss9sYI7YIhvXHXK7b7x-3" style="ellipse;whiteSpace=wrap;html=1;" value="Alertar cambios de vuelo" vertex="1">
           <mxGeometry height="80" width="120" x="290" y="130" as="geometry" />
         </mxCell>
         <mxCell id="fss9sYI7YIhvXHXK7b7x-8" parent="fss9sYI7YIhvXHXK7b7x-3" style="ellipse;whiteSpace=wrap;html=1;" value="Alertar confirmación de reserva" vertex="1">
           <mxGeometry height="80" width="120" x="290" y="325" as="geometry" />
         </mxCell>
-        <mxCell id="fss9sYI7YIhvXHXK7b7x-9" parent="fss9sYI7YIhvXHXK7b7x-3" style="ellipse;whiteSpace=wrap;html=1;" value="Alertas cambios de itinerario" vertex="1">
+        <mxCell id="fss9sYI7YIhvXHXK7b7x-9" parent="fss9sYI7YIhvXHXK7b7x-3" style="ellipse;whiteSpace=wrap;html=1;" value="Alertar cambios de itinerario" vertex="1">
           <mxGeometry height="80" width="120" x="290" y="40" as="geometry" />
         </mxCell>
         <mxCell id="fss9sYI7YIhvXHXK7b7x-5" parent="fss9sYI7YIhvXHXK7b7x-3" style="ellipse;whiteSpace=wrap;html=1;" value="Enviar notificación" vertex="1">
