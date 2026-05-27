@@ -1,48 +1,48 @@
-<mxfile host="app.diagrams.net">
-  <diagram name="Page-1" id="HcFG9tQEaL9N27hgVbYz">
-    <mxGraphModel dx="1060" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="kwGP3XmkNO9itz_yiKHx-4" edge="1" parent="1" source="kwGP3XmkNO9itz_yiKHx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="kwGP3XmkNO9itz_yiKHx-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="kwGP3XmkNO9itz_yiKHx-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
-          <mxGeometry height="60" width="30" x="200" y="310" as="geometry" />
-        </mxCell>
-        <mxCell id="kwGP3XmkNO9itz_yiKHx-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Organizar itinerario" vertex="1">
-          <mxGeometry height="335" width="380" x="270" y="155" as="geometry" />
-        </mxCell>
-        <mxCell id="kwGP3XmkNO9itz_yiKHx-5" parent="kwGP3XmkNO9itz_yiKHx-2" style="ellipse;whiteSpace=wrap;html=1;" value="Visualizar itinerario por dia" vertex="1">
-          <mxGeometry height="80" width="120" x="230" y="45" as="geometry" />
-        </mxCell>
-        <mxCell id="kwGP3XmkNO9itz_yiKHx-6" parent="kwGP3XmkNO9itz_yiKHx-2" style="ellipse;whiteSpace=wrap;html=1;" value="Administrar actividades" vertex="1">
-          <mxGeometry height="80" width="120" x="230" y="235" as="geometry" />
-        </mxCell>
-        <mxCell id="kwGP3XmkNO9itz_yiKHx-3" parent="kwGP3XmkNO9itz_yiKHx-2" style="ellipse;whiteSpace=wrap;html=1;" value="Organizar itinerario" vertex="1">
-          <mxGeometry height="80" width="120" x="30" y="145" as="geometry" />
-        </mxCell>
-        <mxCell id="kwGP3XmkNO9itz_yiKHx-7" edge="1" parent="kwGP3XmkNO9itz_yiKHx-2" source="kwGP3XmkNO9itz_yiKHx-6" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="kwGP3XmkNO9itz_yiKHx-3" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
-          <mxGeometry relative="1" width="160" x="-0.2632" as="geometry">
-            <mxPoint as="offset" />
-            <Array as="points">
-              <mxPoint x="90" y="275" />
-            </Array>
-            <mxPoint x="10" y="185" as="sourcePoint" />
-            <mxPoint x="170" y="185" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kwGP3XmkNO9itz_yiKHx-8" edge="1" parent="kwGP3XmkNO9itz_yiKHx-2" source="kwGP3XmkNO9itz_yiKHx-3" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="kwGP3XmkNO9itz_yiKHx-5" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
-          <mxGeometry relative="1" width="160" x="0.3" as="geometry">
-            <mxPoint as="offset" />
-            <Array as="points">
-              <mxPoint x="90" y="85" />
-            </Array>
-            <mxPoint x="10" y="185" as="sourcePoint" />
-            <mxPoint x="170" y="185" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="65bd71144e">
+    <diagram name="Page-1" id="HcFG9tQEaL9N27hgVbYz">
+        <mxGraphModel dx="678" dy="401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="kwGP3XmkNO9itz_yiKHx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="kwGP3XmkNO9itz_yiKHx-1" target="kwGP3XmkNO9itz_yiKHx-3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="kwGP3XmkNO9itz_yiKHx-1" value="Viajero" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="310" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="kwGP3XmkNO9itz_yiKHx-2" value="Organizar itinerario" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="155" width="380" height="335" as="geometry"/>
+                </mxCell>
+                <mxCell id="kwGP3XmkNO9itz_yiKHx-5" value="Visualizar itinerario por dia" style="ellipse;whiteSpace=wrap;html=1;" parent="kwGP3XmkNO9itz_yiKHx-2" vertex="1">
+                    <mxGeometry x="230" y="45" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="kwGP3XmkNO9itz_yiKHx-6" value="Administrar actividades" style="ellipse;whiteSpace=wrap;html=1;" parent="kwGP3XmkNO9itz_yiKHx-2" vertex="1">
+                    <mxGeometry x="230" y="235" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="kwGP3XmkNO9itz_yiKHx-3" value="Organizar itinerario" style="ellipse;whiteSpace=wrap;html=1;" parent="kwGP3XmkNO9itz_yiKHx-2" vertex="1">
+                    <mxGeometry x="30" y="145" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="kwGP3XmkNO9itz_yiKHx-7" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="kwGP3XmkNO9itz_yiKHx-2" source="kwGP3XmkNO9itz_yiKHx-6" target="kwGP3XmkNO9itz_yiKHx-3" edge="1">
+                    <mxGeometry x="-0.2632" width="160" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                        <Array as="points">
+                            <mxPoint x="90" y="275"/>
+                        </Array>
+                        <mxPoint x="10" y="185" as="sourcePoint"/>
+                        <mxPoint x="170" y="185" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="kwGP3XmkNO9itz_yiKHx-8" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="kwGP3XmkNO9itz_yiKHx-2" source="kwGP3XmkNO9itz_yiKHx-3" target="kwGP3XmkNO9itz_yiKHx-5" edge="1">
+                    <mxGeometry x="0.3" width="160" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                        <Array as="points">
+                            <mxPoint x="90" y="85"/>
+                        </Array>
+                        <mxPoint x="10" y="185" as="sourcePoint"/>
+                        <mxPoint x="170" y="185" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>
