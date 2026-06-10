@@ -1,0 +1,328 @@
+<mxfile host="65bd71144e">
+    <diagram id="hZwagW6e2DWmQ4SbQorF" name="Page-1">
+        <mxGraphModel dx="1102" dy="1254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="25" style="edgeStyle=none;html=1;endArrow=none;endFill=0;rounded=0;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="935" y="450"/>
+                            <mxPoint x="590" y="450"/>
+                        </Array>
+                        <mxPoint x="590" y="479" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="25" vertex="1" connectable="0">
+                    <mxGeometry x="-0.953" relative="1" as="geometry">
+                        <mxPoint x="8" y="4" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="25" vertex="1" connectable="0">
+                    <mxGeometry x="0.9527" relative="1" as="geometry">
+                        <mxPoint x="13" y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Viajero&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- idViajero: String&lt;br&gt;- nombres: String&lt;br&gt;- apellidos: String&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ registrarse(nombres: String, apellidos: String, correo: String, contrasena: String): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ configurarPerfil(preferencias: String, presupuesto: Double): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ planificarViaje(origen: String, destino: String, fechaInicio: Date, fechaFin: Date): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: rgba(255, 255, 255, 0.1); color: rgb(63, 63, 63);&quot;&gt;+ consultarReservas(): List&amp;lt;Reserva&amp;gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="670" y="230" width="530" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Actividad&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- idActividad: String&lt;br&gt;- nombre: String&lt;br&gt;- descripcion: String&lt;br&gt;- fecha: Date&lt;br&gt;- hora: String&lt;br&gt;- ubicacion: String&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ crearActividad(nombre: String, fecha: Date, hora: String, ubicacion: String): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ editarActividad(idActividad: String, descripcion: String): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ eliminarActividad(idActividad: String): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: rgba(255, 255, 255, 0.1); color: rgb(63, 63, 63);&quot;&gt;+ consultarActividad(idActividad: String): Actividad&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="1010" y="895" width="440" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Itinerario&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- idItinerario: String&lt;br&gt;- fechaCreacion: Date&lt;br&gt;- descripcion: String&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ crearItinerario(idViaje: String): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ visualizarPorDia(fecha: Date): List&amp;lt;Actividad&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ agregarActividad(actividad: Actividad): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ eliminarActividad(idActividad: String): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: rgba(255, 255, 255, 0.1); color: rgb(63, 63, 63);&quot;&gt;+ actualizarItinerario(descripcion: String): void&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="910" width="270" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Pago&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- idPago: String&lt;br&gt;- monto: Double&lt;br&gt;- fechaPago: Date&lt;br&gt;- estadoTransaccion: String&lt;br&gt;- metodoPago: String&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ procesarPago(monto: Double, metodoPago: String): boolean&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ registrarTransaccion(idReserva: String, monto: Double): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ consultarEstado(idPago: String): String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;code&gt;+ solicitarReembolso(idPago: String): void&lt;/code&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="-670" y="983" width="360" height="175" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;rounded=0;curved=0;endArrow=none;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="113" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="80" y="780" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="50" vertex="1" connectable="0">
+                    <mxGeometry x="-0.4944" y="-2" relative="1" as="geometry">
+                        <mxPoint x="3" y="-40" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" value="1..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="50" vertex="1" connectable="0">
+                    <mxGeometry x="0.5611" y="2" relative="1" as="geometry">
+                        <mxPoint x="12" y="41" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Reserva&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- idReserva: String&lt;br&gt;- fechaReserva: Date&lt;br&gt;- estadoReserva: String&lt;br&gt;- precioFinal: Double&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ confirmarReserva(idVuelo: String): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ consultarReserva(idReserva: String): Reserva&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ cancelarReserva(idReserva: String): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: rgba(255, 255, 255, 0.1); color: rgb(63, 63, 63);&quot;&gt;+ solicitarReembolso(idReserva: String): void&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="-227.5" y="990" width="265" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Vuelo&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- idVuelo: String&lt;br&gt;- aerolinea: String&lt;br&gt;- origen: String&lt;br&gt;- destino: String&lt;br&gt;- fechaSalida: Date&lt;br&gt;- fechaLlegada: Date&lt;br&gt;- precio: Double&lt;br&gt;- disponibilidad: boolean&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ consultarDisponibilidadPrecio(idVuelo: String): boolean&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ actualizarPrecio(precio: Double): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ obtenerDetalles(): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="-250" y="485" width="310" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" style="edgeStyle=none;html=1;exitX=0.826;exitY=0.998;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;rounded=0;curved=0;exitPerimeter=0;" parent="1" source="8" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="591" y="750"/>
+                            <mxPoint x="755" y="750"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="55" vertex="1" connectable="0">
+                    <mxGeometry x="-0.952" y="1" relative="1" as="geometry">
+                        <mxPoint x="7" y="4" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="0..1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="55" vertex="1" connectable="0">
+                    <mxGeometry x="0.9668" y="1" relative="1" as="geometry">
+                        <mxPoint x="14" y="-4" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Viaje&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- idViaje: String&lt;br&gt;- origen: String&lt;br&gt;- destino: String&lt;br&gt;- fechaInicio: Date&lt;br&gt;- fechaFin: Date&lt;br&gt;- costoEstimado: Double&lt;br&gt;- estado: String&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ buscarVuelos(origen: String, destino: String, fechaInicio: Date, fechaFin: Date): List&amp;lt;Vuelo&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ estimarCostoTotal(): Double&lt;br&gt;+ solicitarRecomendaciones(preferenciasViaje: String): List&amp;lt;Recomendacion&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ consultarHospedaje(destino: String): List&amp;lt;Hospedaje&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;code&gt;+ actualizarEstado(estado: String): void&lt;/code&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="480" width="510" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Perfil&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- idPerfil: String&lt;br&gt;- paisOrigen: String&lt;br&gt;- preferenciasViaje: String&lt;br&gt;- presupuesto: Double&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ actualizarPerfil(paisOrigen: String, preferenciasViaje: String, presupuesto: Double): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;+ consultarPerfil(): Perfil&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: rgba(255, 255, 255, 0.1); color: rgb(63, 63, 63);&quot;&gt;+ validarPresupuesto(costoEstimado: Double): boolean&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="1320" y="235" width="490" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Alerta&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- idAlerta: String&lt;br&gt;- tipoAlerta: String&lt;br&gt;- mensaje: String&lt;br&gt;- fechaEnvio: Date&lt;br&gt;- estadoEnvio: String&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ generarAlerta(tipoAlerta: String, mensaje: String): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ enviarAlerta(canalEnvio: String): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ consultarEstadoEnvio(idAlerta: String): String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: rgba(255, 255, 255, 0.1); color: rgb(63, 63, 63);&quot;&gt;+ registrarErrorEnvio(error: String): void&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="502.5" width="320" height="175" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Hospedaje&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- idHospedaje: String&lt;br&gt;- nombre: String&lt;br&gt;- ubicacion: String&lt;br&gt;- precioEstimado: Double&lt;br&gt;- disponibilidad: boolean&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ consultarHospedaje(destino: String): List&amp;lt;Hospedaje&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ estimarCostoHospedaje(destino: String): Double&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: rgba(255, 255, 255, 0.1); color: rgb(63, 63, 63);&quot;&gt;+ obtenerDetalles(): String&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="269.75" y="777.5" width="310" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Recomendacion&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- idRecomendacion: String&lt;br&gt;- tipo: String&lt;br&gt;- descripcion: String&lt;br&gt;- costoEstimado: Double&lt;br&gt;- prioridad: String&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ generarRecomendacion(idViaje: String): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ actualizarRecomendacion(idRecomendacion: String): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: rgba(255, 255, 255, 0.1); color: rgb(63, 63, 63);&quot;&gt;+ mostrarRecomendacion(): String&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="261" y="230" width="327.5" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="9" target="2" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="665" y="280" as="sourcePoint"/>
+                        <mxPoint x="825" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="13" vertex="1" connectable="0">
+                    <mxGeometry x="0.2467" y="1" relative="1" as="geometry">
+                        <mxPoint x="-32" y="14" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="13" vertex="1" connectable="0">
+                    <mxGeometry x="-0.9186" relative="1" as="geometry">
+                        <mxPoint x="-5" y="14" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="3" target="4" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="260" y="765" as="sourcePoint"/>
+                        <mxPoint x="420" y="765" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="14" vertex="1" connectable="0">
+                    <mxGeometry x="0.5932" y="-1" relative="1" as="geometry">
+                        <mxPoint x="-11" y="17" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="14" vertex="1" connectable="0">
+                    <mxGeometry x="-0.6783" y="-1" relative="1" as="geometry">
+                        <mxPoint x="7" y="14" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="7" target="8" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="140" y="490" as="sourcePoint"/>
+                        <mxPoint x="140" y="610" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="15" vertex="1" connectable="0">
+                    <mxGeometry x="-0.8497" y="1" relative="1" as="geometry">
+                        <mxPoint x="2" y="15" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="15" vertex="1" connectable="0">
+                    <mxGeometry x="-0.8497" y="1" relative="1" as="geometry">
+                        <mxPoint x="87" y="16" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="10" target="8" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="180" y="440" as="sourcePoint"/>
+                        <mxPoint x="700" y="620" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="17" vertex="1" connectable="0">
+                    <mxGeometry x="0.8444" y="-6" relative="1" as="geometry">
+                        <mxPoint x="107" y="20" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="17" vertex="1" connectable="0">
+                    <mxGeometry x="0.6836" y="-3" relative="1" as="geometry">
+                        <mxPoint x="-6" y="18" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="11" target="8" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="180" y="440" as="sourcePoint"/>
+                        <mxPoint x="340" y="440" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="18" vertex="1" connectable="0">
+                    <mxGeometry x="0.7111" y="2" relative="1" as="geometry">
+                        <mxPoint x="14" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="60" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="18">
+                    <mxGeometry x="-0.8396" relative="1" as="geometry">
+                        <mxPoint x="14" y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="12" target="8" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="180" y="440" as="sourcePoint"/>
+                        <mxPoint x="340" y="440" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="19" vertex="1" connectable="0">
+                    <mxGeometry x="0.5244" y="1" relative="1" as="geometry">
+                        <mxPoint x="11" y="8" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="19" vertex="1" connectable="0">
+                    <mxGeometry x="-0.6978" relative="1" as="geometry">
+                        <mxPoint x="12" y="-6" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="61" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IServicioVuelos&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ consultarVuelos(origen: String, destino: String, fechaInicio: Date, fechaFin: Date): List&amp;lt;Vuelo&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ verificarDisponibilidad(idVuelo: String): boolean&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: rgba(255, 255, 255, 0.1); color: rgb(63, 63, 63);&quot;&gt;+ obtenerCambiosVuelo(idVuelo: String): String&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="-355" y="340" width="520" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IServicioPagos&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); background-color: transparent;&quot;&gt;+ procesarPago(monto: Double, metodoPago: String): boolean&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); background-color: rgba(255, 255, 255, 0.1);&quot;&gt;+ solicitarReembolso(idPago: String): boolean&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="-662.5" y="1228.75" width="345" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IServicioNotificaciones&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ enviarNotificacion(mensaje: String, canalEnvio: String): boolean&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: rgba(255, 255, 255, 0.1); color: rgb(63, 63, 63);&quot;&gt;+ consultarEstadoEnvio(idAlerta: String): String&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="1200" y="550" width="370" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IServicioRecomendaciones&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;code&gt;+ generarRecomendaciones(idViaje: String, preferencias: String): List&amp;lt;Recomendacion&amp;gt;&lt;/code&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="180.42000000000007" y="80" width="488.65" height="62.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IServicioHoteles&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); background-color: transparent;&quot;&gt;+ consultarHospedaje(destino: String): List&amp;lt;Hospedaje&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); background-color: rgba(255, 255, 255, 0.1);&quot;&gt;+ estimarCostoHospedaje(destino: String): Double&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="980" width="310" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Usuario&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- idUsuario: String&lt;br&gt;- correo: String&lt;br&gt;- contrasena: String&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ iniciarSesion(correo: String, contrasena: String): boolean&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ cerrarSesion(): void&lt;br&gt;+ cambiarContrasena(nuevaContrasena: String): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="770" y="30" width="330" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="2" target="67">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="490" y="150" as="sourcePoint"/>
+                        <mxPoint x="650" y="150" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="70" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;APIRecomendacionesIA&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- urlServicio: String&lt;br&gt;- modeloIA: String&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: rgba(255, 255, 255, 0.1);&quot;&gt;+ generarRecomendaciones(idViaje: String, preferencias: String): List&amp;lt;Recomendacion&amp;gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="184.75" y="-60" width="480" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;APINotificaciones&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- urlServicio: String&lt;br&gt;- canalEnvio: String&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); background-color: transparent;&quot;&gt;+ enviarNotificacion(mensaje: String, canalEnvio: String): boolean&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); background-color: rgba(255, 255, 255, 0.1);&quot;&gt;+ consultarEstadoEnvio(idAlerta: String): String&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="1640" y="535" width="360" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;APIVuelos&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- urlServicio: String&lt;br&gt;- estadoServicio: String&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); background-color: transparent;&quot;&gt;+ consultarVuelos(origen: String, destino: String, fechaInicio: Date, fechaFin: Date): List&amp;lt;Vuelo&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); background-color: transparent;&quot;&gt;+ verificarDisponibilidad(idVuelo: String): boolean&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); background-color: rgba(255, 255, 255, 0.1); color: rgb(63, 63, 63);&quot;&gt;+ obtenerCambiosVuelo(idVuelo: String): String&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="-356.25" y="160" width="522.5" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;APIPagos&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- urlServicio: String&lt;br&gt;- estadoServicio: String&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ procesarPago(monto: Double, metodoPago: String): boolean&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: rgba(255, 255, 255, 0.1); color: rgb(63, 63, 63);&quot;&gt;+ solicitarReembolso(idPago: String): boolean&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="-662.5" y="1368.75" width="345" height="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;APIHoteles&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- urlServicio: String&lt;br&gt;- estadoServicio: String&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ consultarHospedaje(destino: String): List&amp;lt;Hospedaje&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: rgba(255, 255, 255, 0.1); color: rgb(63, 63, 63);&quot;&gt;+ estimarCostoHospedaje(destino: String): Double&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="265" y="1115" width="320" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;rounded=0;curved=0;" edge="1" parent="1" source="7" target="61">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="950" y="500" as="sourcePoint"/>
+                        <mxPoint x="1470" y="530" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="78" value="" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;rounded=0;curved=0;" edge="1" parent="1" source="12" target="64">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="450" y="645" as="sourcePoint"/>
+                        <mxPoint x="1110" y="640" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="91" value="" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;rounded=0;curved=0;" edge="1" parent="1" source="11" target="65">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="830" y="810" as="sourcePoint"/>
+                        <mxPoint x="1270" y="879" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="93" value="" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5" target="62">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="896" y="936.52" as="sourcePoint"/>
+                        <mxPoint x="1395" y="1200.52" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="94" value="" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="10" target="63">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="661.35" y="550" as="sourcePoint"/>
+                        <mxPoint x="1101.35" y="619" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="101" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="72" target="61">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="60" y="300" as="sourcePoint"/>
+                        <mxPoint x="220" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="103" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="70" target="64">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="20" y="280" as="sourcePoint"/>
+                        <mxPoint x="20" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="104" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="71" target="63">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="1275" y="435" as="sourcePoint"/>
+                        <mxPoint x="1275" y="485" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="105" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="74" target="65">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="710" y="1160" as="sourcePoint"/>
+                        <mxPoint x="640" y="1160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="106" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="73" target="62">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-290" y="1363.75" as="sourcePoint"/>
+                        <mxPoint x="-290" y="1308.75" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="113" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;DetalleReserva&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- idDetalle: String&lt;br&gt;- numeroAsiento: String&lt;br&gt;- claseServicio: String&lt;br&gt;- precioTramo: Double&lt;br&gt;- estadoDetalle: String&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ asignarAsiento(numeroAsiento: String): void&lt;br&gt;+ cambiarClaseServicio(claseServicio: String): void&lt;br&gt;+ calcularPrecioTramo(): Double&lt;br&gt;+ consultarDetalle(): DetalleReserva&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="-238.75" y="760" width="287.5" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="113" target="6">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-320" y="869" as="sourcePoint"/>
+                        <mxPoint x="-217" y="1080" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="116" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="114">
+                    <mxGeometry x="0.6836" y="-3" relative="1" as="geometry">
+                        <mxPoint x="16" y="-3" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="117" value="0..1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="114">
+                    <mxGeometry x="-0.8604" y="-1" relative="1" as="geometry">
+                        <mxPoint x="13" y="3" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="118" style="edgeStyle=none;html=1;rounded=0;curved=0;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-280" y="1130" as="sourcePoint"/>
+                        <mxPoint x="-270" y="1110" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="119" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="118">
+                    <mxGeometry x="-0.4944" y="-2" relative="1" as="geometry">
+                        <mxPoint x="55" y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="120" value="0..1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="118">
+                    <mxGeometry x="0.5611" y="2" relative="1" as="geometry">
+                        <mxPoint x="-53" y="12" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
