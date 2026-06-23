@@ -1,188 +1,147 @@
-<mxfile host="65bd71144e">
-    <diagram id="yGmiJ87OCf-ful1FvgzD" name="Page-1">
-        <mxGraphModel dx="988" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-            <root>
-                <mxCell id="0"/>
-                <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="&lt;div&gt;&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;Dispositivo del viajero&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="80" y="323" width="190" height="159" as="geometry"/>
-                </mxCell>
-                <mxCell id="3" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;Aplicación Web / Móvil" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="105" y="389" width="140" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="4" value="&lt;div align=&quot;center&quot;&gt;&amp;lt;&amp;lt;node&amp;gt;&amp;gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;Servidor de Aplicación&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="420" y="175" width="720" height="445" as="geometry"/>
-                </mxCell>
-                <mxCell id="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=227.5;entryDy=720;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="2" target="4">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="6" value="HTTPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="5">
-                    <mxGeometry x="-0.1003" y="3" relative="1" as="geometry">
-                        <mxPoint x="2" y="-10" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="7" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt; SistemaGestionViajes" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="460" y="230" width="180" height="90" as="geometry"/>
-                </mxCell>
-                <mxCell id="8" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="7">
-                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-                        <mxPoint x="-27" y="7" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="9" value="&lt;div&gt;&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;AccesoAutenticacion&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="690" y="230" width="180" height="90" as="geometry"/>
-                </mxCell>
-                <mxCell id="10" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="9">
-                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-                        <mxPoint x="-27" y="7" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="11" value="&lt;div&gt;&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;ReservaPago&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="690" y="362.5" width="180" height="90" as="geometry"/>
-                </mxCell>
-                <mxCell id="12" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="11">
-                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-                        <mxPoint x="-27" y="7" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="13" value="&lt;div&gt;&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;PlanificacionViaje&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="460" y="362.5" width="180" height="90" as="geometry"/>
-                </mxCell>
-                <mxCell id="14" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="13">
-                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-                        <mxPoint x="-27" y="7" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="15" value="&lt;div&gt;&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;GestionPerfil&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="920" y="230" width="180" height="90" as="geometry"/>
-                </mxCell>
-                <mxCell id="16" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="15">
-                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-                        <mxPoint x="-27" y="7" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="17" value="&lt;div&gt;&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;GestionItinerario&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="920" y="362.5" width="180" height="90" as="geometry"/>
-                </mxCell>
-                <mxCell id="18" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="17">
-                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-                        <mxPoint x="-27" y="7" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="19" value="&lt;div&gt;&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;GestionAlertas&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="690" y="500" width="180" height="90" as="geometry"/>
-                </mxCell>
-                <mxCell id="20" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="19">
-                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-                        <mxPoint x="-27" y="7" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="21" value="&lt;div align=&quot;center&quot;&gt;&lt;span&gt;&amp;lt;&amp;lt;node&amp;gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span&gt;Servidor de Base de Datos&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="1300" y="288.5" width="210" height="207.5" as="geometry"/>
-                </mxCell>
-                <mxCell id="22" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;BD SistemaGestionViajes" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="1330" y="410" width="150" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=217.5;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="21" target="4">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="24" value="TCP / IP - SQL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="23">
-                    <mxGeometry x="0.2368" y="-1" relative="1" as="geometry">
-                        <mxPoint x="17" y="-11" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="25" value="&lt;div&gt;&amp;lt;&amp;lt;external node&amp;gt;&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Proveedor API Vuelos&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="150" y="750" width="215" height="180" as="geometry"/>
-                </mxCell>
-                <mxCell id="26" value="&lt;div&gt;&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;API Vuelos&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="177.5" y="830" width="160" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="27" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="26">
-                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-                        <mxPoint x="-27" y="7" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="28" value="&amp;lt;&amp;lt;external node&amp;gt;&amp;gt;&lt;br&gt;Proveedor API Hoteles" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="410" y="750" width="215" height="180" as="geometry"/>
-                </mxCell>
-                <mxCell id="29" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;API Hoteles" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="437.5" y="830" width="160" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="30" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="29">
-                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-                        <mxPoint x="-27" y="7" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="31" value="&amp;lt;&amp;lt;external node&amp;gt;&amp;gt;&lt;br&gt;Pasarela de Pagos" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="668" y="750" width="215" height="180" as="geometry"/>
-                </mxCell>
-                <mxCell id="32" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;API Pagos" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="695.5" y="830" width="160" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="33" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="32">
-                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-                        <mxPoint x="-27" y="7" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="34" value="&amp;lt;&amp;lt;external node&amp;gt;&amp;gt;&lt;br&gt;Servicio de Notificaciones" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="920" y="750" width="215" height="180" as="geometry"/>
-                </mxCell>
-                <mxCell id="35" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;API Notificaciones" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="947.5" y="830" width="160" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="36" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="35">
-                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-                        <mxPoint x="-27" y="7" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="37" value="&lt;div&gt;&amp;lt;&amp;lt;external node&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;Servidor de Recomendaciones IA&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="1168" y="750" width="215" height="270" as="geometry"/>
-                </mxCell>
-                <mxCell id="38" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;API Recomendaciones IA" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="1195.5" y="830" width="160" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="39" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="38">
-                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-                        <mxPoint x="-27" y="7" as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=445;entryDy=365;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=102.5;exitPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="25" target="4">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=445;entryDy=365;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="28" target="4">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=445;entryDy=365;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="31" target="4">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=445;entryDy=365;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="34" target="4">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=445;entryDy=365;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=102.5;exitPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="37" target="4">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="45" value="Independiente del SOA principal" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;spacingLeft=5;" vertex="1" parent="1">
-                    <mxGeometry x="1194.5" y="920" width="162" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="46" value="Note" style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;whiteSpace=wrap;html=1;" vertex="1" parent="45">
-                    <mxGeometry width="162" height="25" relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="47" value="HTTPS / REST" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="1">
-                    <mxGeometry x="1070" y="720" as="geometry"/>
-                </mxCell>
-                <mxCell id="48" value="HTTPS / REST" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="1">
-                    <mxGeometry x="1330" y="720" as="geometry"/>
-                </mxCell>
-                <mxCell id="49" value="HTTPS / REST" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="1">
-                    <mxGeometry x="820" y="720" as="geometry"/>
-                </mxCell>
-                <mxCell id="50" value="HTTPS / REST" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="1">
-                    <mxGeometry x="560" y="720" as="geometry"/>
-                </mxCell>
-                <mxCell id="51" value="HTTPS / REST" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="1">
-                    <mxGeometry x="310" y="720" as="geometry"/>
-                </mxCell>
-            </root>
-        </mxGraphModel>
-    </diagram>
+<mxfile host="app.diagrams.net">
+  <diagram id="yGmiJ87OCf-ful1FvgzD" name="Page-1">
+    <mxGraphModel dx="804" dy="423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="&lt;div&gt;&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;Dispositivo del viajero&lt;/div&gt;" vertex="1">
+          <mxGeometry height="159" width="190" x="390" y="319" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;Aplicación Web / Móvil" vertex="1">
+          <mxGeometry height="60" width="140" x="415" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="&lt;div align=&quot;center&quot;&gt;&amp;lt;&amp;lt;node&amp;gt;&amp;gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;Servidor de Aplicación&lt;/div&gt;" vertex="1">
+          <mxGeometry height="235" width="190" x="680.5" y="276.25" as="geometry" />
+        </mxCell>
+        <mxCell id="5" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0;entryY=0;entryDx=122.49999999999999;entryDy=190;entryPerimeter=0;" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6" connectable="0" parent="5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="HTTPS" vertex="1">
+          <mxGeometry relative="1" x="-0.1003" y="3" as="geometry">
+            <mxPoint x="2" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" parent="1" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="&lt;div align=&quot;center&quot;&gt;&lt;span&gt;&amp;lt;&amp;lt;node&amp;gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span&gt;Servidor de Base de Datos&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="151.5" width="180" x="970" y="313" as="geometry" />
+        </mxCell>
+        <mxCell id="22" parent="1" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;BD SistemaGestionViajes" vertex="1">
+          <mxGeometry height="60" width="150" x="980" y="387" as="geometry" />
+        </mxCell>
+        <mxCell id="23" edge="1" parent="1" source="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0;entryY=0;entryDx=112.49999999999999;entryDy=0;entryPerimeter=0;" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24" connectable="0" parent="23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="TCP/IP - SQL" vertex="1">
+          <mxGeometry relative="1" x="0.2368" y="-1" as="geometry">
+            <mxPoint x="17" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" parent="1" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="&lt;div&gt;&amp;lt;&amp;lt;external node&amp;gt;&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Proveedor API Vuelos&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="215" x="145" y="665" as="geometry" />
+        </mxCell>
+        <mxCell id="26" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;" value="&lt;div&gt;&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;API Vuelos&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="172.5" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="27" parent="26" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28" parent="1" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="&amp;lt;&amp;lt;external node&amp;gt;&amp;gt;&lt;br&gt;Proveedor API Hoteles" vertex="1">
+          <mxGeometry height="180" width="215" x="405" y="665" as="geometry" />
+        </mxCell>
+        <mxCell id="29" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;API Hoteles" vertex="1">
+          <mxGeometry height="70" width="160" x="432.5" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="30" parent="29" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="31" parent="1" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="&amp;lt;&amp;lt;external node&amp;gt;&amp;gt;&lt;br&gt;Pasarela de Pagos" vertex="1">
+          <mxGeometry height="180" width="215" x="663" y="665" as="geometry" />
+        </mxCell>
+        <mxCell id="32" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;API Pagos" vertex="1">
+          <mxGeometry height="70" width="160" x="690.5" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="33" parent="32" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34" parent="1" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="&amp;lt;&amp;lt;external node&amp;gt;&amp;gt;&lt;br&gt;Servicio de Notificaciones" vertex="1">
+          <mxGeometry height="180" width="215" x="915" y="665" as="geometry" />
+        </mxCell>
+        <mxCell id="35" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;API Notificaciones" vertex="1">
+          <mxGeometry height="70" width="160" x="942.5" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="36" parent="35" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="37" parent="1" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" value="&lt;div&gt;&amp;lt;&amp;lt;external node&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;Servidor de Recomendaciones IA&lt;/div&gt;" vertex="1">
+          <mxGeometry height="270" width="215" x="1163" y="665" as="geometry" />
+        </mxCell>
+        <mxCell id="38" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;API Recomendaciones IA" vertex="1">
+          <mxGeometry height="70" width="160" x="1190.5" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="39" parent="38" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="45" parent="1" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;spacingLeft=5;" value="Independiente del SOA principal" vertex="1">
+          <mxGeometry height="70" width="162" x="1189.5" y="835" as="geometry" />
+        </mxCell>
+        <mxCell id="46" parent="45" style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;whiteSpace=wrap;html=1;" value="Note" vertex="1">
+          <mxGeometry height="25" relative="1" width="162" as="geometry" />
+        </mxCell>
+        <mxCell id="47" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="HTTPS / REST" vertex="1">
+          <mxGeometry x="1075" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="48" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="HTTPS / REST" vertex="1">
+          <mxGeometry x="1335" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="49" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="HTTPS / REST" vertex="1">
+          <mxGeometry x="815" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="50" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="HTTPS / REST" vertex="1">
+          <mxGeometry x="555" y="635" as="geometry">
+            <mxPoint x="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="51" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="HTTPS / REST" vertex="1">
+          <mxGeometry x="305" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="Pgxiv6T1cL2-D-o_ygRm-51" parent="1" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" value="&lt;div&gt;&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;SistemaGestionViajesApp&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="698" y="338.75" as="geometry" />
+        </mxCell>
+        <mxCell id="Pgxiv6T1cL2-D-o_ygRm-52" parent="1" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;spacingLeft=5;" value="Incluye: Acceso, Perfil, Planificación, Reserva, Pago, Itinerario y Alertas." vertex="1">
+          <mxGeometry height="82" width="148.5" x="701.25" y="419.25" as="geometry" />
+        </mxCell>
+        <mxCell id="Pgxiv6T1cL2-D-o_ygRm-53" parent="Pgxiv6T1cL2-D-o_ygRm-52" style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;whiteSpace=wrap;html=1;" value="Note" vertex="1">
+          <mxGeometry height="25" relative="1" width="148.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Pgxiv6T1cL2-D-o_ygRm-55" edge="1" parent="1" source="31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=235;entryDy=100;entryPerimeter=0;endArrow=none;endFill=0;" target="4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pgxiv6T1cL2-D-o_ygRm-56" edge="1" parent="1" source="34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=235;entryDy=100;entryPerimeter=0;endArrow=none;endFill=0;exitX=0;exitY=0;exitDx=0;exitDy=102.5;exitPerimeter=0;" target="4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pgxiv6T1cL2-D-o_ygRm-57" edge="1" parent="1" source="37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=235;entryDy=100;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=102.5;exitPerimeter=0;endArrow=none;endFill=0;" target="4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pgxiv6T1cL2-D-o_ygRm-58" edge="1" parent="1" source="28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=235;entryDy=100;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=102.5;exitPerimeter=0;endArrow=none;endFill=0;" target="4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pgxiv6T1cL2-D-o_ygRm-59" edge="1" parent="1" source="25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=235;entryDy=100;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=102.5;exitPerimeter=0;endArrow=none;endFill=0;" target="4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
 </mxfile>
